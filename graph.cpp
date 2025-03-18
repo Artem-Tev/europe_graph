@@ -280,6 +280,7 @@ int main() {
     std::pair<int, int> r_and_d = findRadiusAndDiameter(sp_num);
     std::cout<<"\nr="<<r_and_d.first;
     std::cout<<"\nd="<<r_and_d.second;
+    std::cout<<"\nРасстояния:\n"
     for(auto i: edges_sp){
         std::cout<<i.second<<":"<<i.first;
         std::cout<<'\n';
